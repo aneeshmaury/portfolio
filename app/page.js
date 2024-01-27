@@ -75,16 +75,38 @@ With a strong foundation in computer science, I am currently honing my skills an
 </div>
 <div className="logo-section bg-black p-4 rounded-sm mt-6 md:ml-32 ">
   <p className="text-white w-62 p-4 md:w-56 h-56" data-aos="zoom-in" data-aos-duration="2000">
-"Passionate frontend developer proficient in HTML, CSS, and JavaScript, with expertise in React and Next.js. Transforming ideas into interactive and engaging web experiences."</p>
+Passionate frontend developer proficient in HTML, CSS, and JavaScript, with expertise in React and Next.js. Transforming ideas into interactive and engaging web experiences.</p>
 </div>
 
 
 </div>
-<div className="project">
 
-<div class="flex min-h-screen items-center justify-center bg-gray-100">
+<h1 className="text-3xl text-black font-bold w-54 text-center shadow-md bg-blue-500 px-4 py-2 m-10" data-aos="zoom-in" data-aos-duration="2000">Projects</h1>
+
+<div className="project md:flex">
+
+<div class="flex items-center justify-center bg-black mt-11">
+  <div class="mx-auto px-5 ">
+    <div class=" cursor-pointer rounded-lg bg-zinc-900 p-2 shadow duration-150 hover:scale-105 hover:shadow-md">
+      <img class="w-full rounded-lg object-cover object-center" src="/images/currency.PNG" alt="product"/>
+      <p class="my-4 pl-4 font-bold text-gray-500">Currency Convertor</p>
+      <p class="mb-4 ml-4 text-xl font-semibold text-gray-800">$399</p>
+    </div>
+  </div>
+</div>
+<div class="flex  items-center justify-center bg-black mt-11">
   <div class="mx-auto px-5">
-    <div class="max-w-xs cursor-pointer rounded-lg bg-white p-2 shadow duration-150 hover:scale-105 hover:shadow-md">
+    <div class=" cursor-pointer rounded-lg bg-zinc-900 p-2 shadow duration-150 hover:scale-105 hover:shadow-md">
+      <img class="w-full rounded-lg object-cover object-center" src="https://images.unsplash.com/photo-1511556532299-8f662fc26c06?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="product" />
+      <p class="my-4 pl-4 font-bold text-gray-500">Product Name</p>
+      <p class="mb-4 ml-4 text-xl font-semibold text-gray-800">$399</p>
+    </div>
+  </div>
+</div>
+
+<div class="flex  items-center justify-center bg-black mt-11">
+  <div class="mx-auto px-5">
+    <div class=" cursor-pointer rounded-lg bg-zinc-900 p-2 shadow duration-150 hover:scale-105 hover:shadow-md">
       <img class="w-full rounded-lg object-cover object-center" src="https://images.unsplash.com/photo-1511556532299-8f662fc26c06?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="product" />
       <p class="my-4 pl-4 font-bold text-gray-500">Product Name</p>
       <p class="mb-4 ml-4 text-xl font-semibold text-gray-800">$399</p>
