@@ -1,4 +1,5 @@
 "use client"
+import MultiActionAreaCard from './card';
 import { TypeAnimation } from 'react-type-animation';
 import { React, useEffect } from 'react'
 import AOS from 'aos';
@@ -31,11 +32,9 @@ export default function Home() {
   <nav className="py-10 mb-12 flex justify-between">
 <h1 className="text-xl text-white font-bold" data-aos="fade-right" data-aos-duration="2000">--Developer--</h1>
 <ul className="flex items-center">
-  <li>
-  <MdDarkMode className="cursor-pointer text-2xl" />
-  </li>
+  
   <li><a 
-  className="bg-violet-950	 text-white rounded-sm py-2 px-4 ml-8 border-none" href="#">Resume</a></li>
+  className="bg-violet-950	 text-white rounded-sm py-2 px-4 ml-8 border-none" href="https://drive.google.com/file/d/18oRpP7Isf_e14SHhCidP3HTjF1iNvL11/view?usp=sharing" target='_blank'>Resume</a></li>
 </ul>
 </nav>
 <div className="text-center p-10">
@@ -54,9 +53,23 @@ export default function Home() {
 />
 <h3 className="text-2xl text-blue-600 py-2">Front-End <span className="font-bold" data-aos="fade-left" data-aos-duration="2000">Dev</span> </h3>
 <p className="text-md py-5 leading-8 text-white">
-With a strong foundation in computer science, I am currently honing my skills and knowledge through an internship at INFORTRIXS,
- specializing in Front-End Development.
+<TypeAnimation
+  sequence={[
+    "Crafting seamless and visually stunning web experiences through code and creativity as a Front-End Developer",
+    1000,
+    "Crafting seamless and visually stunning web experiences through code and creativity as a Front-End Developer ",
+    1000,
+    
+  ]}
+  speed={150}
+  style={{ fontSize: '1em' }}
+ 
+  className="text-white font-sans"
+/>
+ 
 </p>
+<a 
+  className="bg-violet-950	 text-white rounded-sm py-2 px-4 ml-3 border-none" href="https://wa.me/message/4BT4YXGDU4TNP1" target='_blank' data-aos="zoom-in" data-aos-duration="2000">Contact me</a>
 </div>
 <div className="text-4xl flex justify-center gap-10 " >
 <a href="https://twitter.com/codewithaneesh" target="_blank"data-aos="fade-up" data-aos-duration="1500"><FaSquareXTwitter className="text-zinc-500" /></a>
@@ -64,7 +77,7 @@ With a strong foundation in computer science, I am currently honing my skills an
 <a href="https://www.youtube.com/@codewithaneesh" target="blank" data-aos="fade-up" data-aos-duration="2100"><FaYoutube className="text-zinc-500" /></a>
 
 </div>
-<img src="/images/logo.jpg" alt="logo" className="flex justify-center rounded-full w-80 h-80 mt-10 mx-auto"   data-aos="fade-up"  data-aos-duration="2000" />
+<img src="/images/logo.jpg" alt="logo" className="flex justify-center rounded-full w-80 h-80 mt-10 mx-auto"   data-aos="zoom-in" data-aos-duration="2000" />
 <div class="border-t border-gray-500 my-4"></div>
 <h1 className="text-3xl text-black font-bold w-54 text-center shadow-md bg-blue-500 px-4 py-2 m-10" data-aos="zoom-in" data-aos-duration="2000">Tech Stack</h1>
 
@@ -83,38 +96,13 @@ Passionate frontend developer proficient in HTML, CSS, and JavaScript, with expe
 
 <h1 className="text-3xl text-black font-bold w-54 text-center shadow-md bg-blue-500 px-4 py-2 m-10" data-aos="zoom-in" data-aos-duration="2000">Projects</h1>
 
-<div className="project md:flex">
-
-<div class="flex items-center justify-center bg-black mt-11">
-  <div class="mx-auto px-5 ">
-    <div class=" cursor-pointer rounded-lg bg-zinc-900 p-2 shadow duration-150 hover:scale-105 hover:shadow-md">
-      <img class="w-full rounded-lg object-cover object-center" src="/images/currency.PNG" alt="product"/>
-      <p class="my-4 pl-4 font-bold text-gray-500">Currency Convertor</p>
-      <p class="mb-4 ml-4 text-xl font-semibold text-gray-800">$399</p>
-    </div>
-  </div>
-</div>
-<div class="flex  items-center justify-center bg-black mt-11">
-  <div class="mx-auto px-5">
-    <div class=" cursor-pointer rounded-lg bg-zinc-900 p-2 shadow duration-150 hover:scale-105 hover:shadow-md">
-      <img class="w-full rounded-lg object-cover object-center" src="https://images.unsplash.com/photo-1511556532299-8f662fc26c06?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="product" />
-      <p class="my-4 pl-4 font-bold text-gray-500">Product Name</p>
-      <p class="mb-4 ml-4 text-xl font-semibold text-gray-800">$399</p>
-    </div>
-  </div>
-</div>
-
-<div class="flex  items-center justify-center bg-black mt-11">
-  <div class="mx-auto px-5">
-    <div class=" cursor-pointer rounded-lg bg-zinc-900 p-2 shadow duration-150 hover:scale-105 hover:shadow-md">
-      <img class="w-full rounded-lg object-cover object-center" src="https://images.unsplash.com/photo-1511556532299-8f662fc26c06?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="product" />
-      <p class="my-4 pl-4 font-bold text-gray-500">Product Name</p>
-      <p class="mb-4 ml-4 text-xl font-semibold text-gray-800">$399</p>
-    </div>
-  </div>
-</div>
+<div className='project-section'>
+<MultiActionAreaCard/>
 
 </div>
+
+
+
 
  
   </section>
