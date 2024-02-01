@@ -101,7 +101,7 @@ Passionate frontend developer proficient in HTML, CSS, and JavaScript, with expe
 
 </div>
 
-
+<div className='footer-section text-white text-center mt-4 pb-5'>Aneesh@24</div>
 
 
  
