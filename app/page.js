@@ -4,9 +4,10 @@ import { TypeAnimation } from 'react-type-animation';
 import { React, useEffect } from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { MdDarkMode } from "react-icons/md";
+
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaLinkedin,FaYoutube } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 import Skill from './skill';
 import "./globals.css"
 
@@ -75,7 +76,7 @@ export default function Home() {
 <a href="https://twitter.com/codewithaneesh" target="_blank"data-aos="fade-up" data-aos-duration="1500"><FaSquareXTwitter className="text-zinc-500" /></a>
 <a href="https://www.linkedin.com/in/aneeshmaury/" target="_blank" data-aos="fade-up" data-aos-duration="1800"><FaLinkedin className="text-zinc-500" /></a>
 <a href="https://www.youtube.com/@codewithaneesh" target="blank" data-aos="fade-up" data-aos-duration="2100"><FaYoutube className="text-zinc-500" /></a>
-
+<a href="https://github.com/aneeshmaury" target="_blank"data-aos="fade-up" data-aos-duration="2300"><FaGithub className="text-zinc-500" /></a>
 </div>
 <img src="/images/logo.jpg" alt="logo" className="flex justify-center rounded-full w-80 h-80 mt-10 mx-auto"   data-aos="zoom-in" data-aos-duration="2000" />
 <div class="border-t border-gray-500 my-4"></div>
