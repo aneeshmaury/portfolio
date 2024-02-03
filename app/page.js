@@ -27,17 +27,21 @@ export default function Home() {
   
   return (
     
-<main className=" bg-black px-5">
+<main className="bg-[#030637] ">
 
-  <section className="min-h-scree">
-  <nav className="py-10 mb-12 flex justify-between">
+  <section className="min-h-screen">
+  <nav className="p-6 mb-12 flex justify-between">
+  
 <h1 className="text-xl text-white font-bold" data-aos="fade-right" data-aos-duration="2000">--Developer--</h1>
 <ul className="flex items-center">
   
   <li><a 
   className="bg-violet-950	 text-white rounded-sm py-2 px-4 ml-8 border-none" href="https://drive.google.com/file/d/18oRpP7Isf_e14SHhCidP3HTjF1iNvL11/view?usp=sharing" target='_blank'>Resume</a></li>
 </ul>
+
 </nav>
+
+
 <div className="text-center p-10">
 <TypeAnimation
   sequence={[
@@ -79,10 +83,10 @@ export default function Home() {
 <a href="https://github.com/aneeshmaury" target="_blank"data-aos="fade-up" data-aos-duration="2300"><FaGithub className="text-zinc-500" /></a>
 </div>
 <img src="/images/logo.jpg" alt="logo" className="flex justify-center rounded-full w-80 h-80 mt-10 mx-auto"   data-aos="zoom-in" data-aos-duration="2000" />
-<div class="border-t border-gray-500 my-4"></div>
-<h1 className="text-3xl text-black font-bold w-54 text-center shadow-md bg-blue-500 px-4 py-2 m-10" data-aos="zoom-in" data-aos-duration="2000">Tech Stack</h1>
 
-<div className="skill-container bg-zinc-950 rounded-md p-6 h-92 md:flex justify-around">
+<h1 className="text-3xl text-white font-bold w-54 text-center shadow-md bg-[#720455] px-4 py-2 m-10" data-aos="zoom-in" data-aos-duration="2000">Tech Stack</h1>
+
+<div className="skill-container bg-[#3C0753] rounded-md p-6 h-92 md:flex justify-around">
 
 <div className="skill-section bg-black p-4 rounded-sm md:bg-zinc-950  mt-11">
 <Skill/>
@@ -97,7 +101,7 @@ Passionate frontend developer proficient in HTML, CSS, and JavaScript, with expe
 
 <h1 className="text-3xl text-black font-bold w-54 text-center shadow-md bg-blue-500 px-4 py-2 m-10" data-aos="zoom-in" data-aos-duration="2000">Projects</h1>
 
-<div className='project-section'>
+<div className='project-section flex justify-center '>
 <MultiActionAreaCard/>
 
 </div>
