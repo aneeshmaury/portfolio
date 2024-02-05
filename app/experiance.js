@@ -33,7 +33,7 @@ export default function CustomizedTimeline() {
           <TimelineConnector />
         </TimelineSeparator>
         <TimelineContent sx={{ py: '12px', px: 2, color:'white' }}  data-aos="zoom-in" data-aos-duration="2000">
-          <Typography variant="h6" component="span" className='text-sm'>
+          <Typography variant="h7" component="span" className='text-sm'>
             Bachelor in Computer Science
           </Typography>
           <Typography className='text-sm'>2020 - 2023</Typography>
@@ -57,7 +57,7 @@ export default function CustomizedTimeline() {
           <TimelineConnector />
         </TimelineSeparator>
         <TimelineContent sx={{ py: '12px', px: 2, color:'white' }} data-aos="fade-right" data-aos-duration="2000">
-          <Typography variant="h6" component="span" className='text-sm'>
+          <Typography variant="h7" component="span" className='text-sm'>
             Front-End Development
           </Typography>
           <Typography className='text-sm '>11/2023 - 12/2023</Typography>
@@ -81,7 +81,7 @@ export default function CustomizedTimeline() {
           <TimelineConnector />
         </TimelineSeparator>
         <TimelineContent sx={{ py: '12px', px: 2, color:'white' }}  data-aos="zoom-in" data-aos-duration="2000">
-          <Typography variant="h6" component="span" className='text-sm'>
+          <Typography variant="h7" component="span">
             Web Development
           </Typography>
           <Typography className='text-sm'>10/2023 - Present</Typography>
