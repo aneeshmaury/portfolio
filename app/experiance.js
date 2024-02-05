@@ -60,7 +60,7 @@ export default function CustomizedTimeline() {
           <Typography variant="h6" component="span" className='text-sm'>
             Front-End Development
           </Typography>
-          <Typography className='text-sm'>11/2023 - 12/2023</Typography>
+          <Typography className='text-sm '>11/2023 - 12/2023</Typography>
         </TimelineContent>
       </TimelineItem>
       <TimelineItem>
