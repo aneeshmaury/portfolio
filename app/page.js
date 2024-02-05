@@ -1,9 +1,11 @@
 "use client"
 import MultiActionAreaCard from './card';
 import { TypeAnimation } from 'react-type-animation';
+
 import { React, useEffect } from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import CustomizedTimeline from './experiance';
 
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaLinkedin,FaYoutube } from "react-icons/fa";
@@ -36,7 +38,7 @@ export default function Home() {
 <ul className="flex items-center">
   
   <li><a 
-  className="bg-violet-950	 text-white rounded-sm py-2 px-4 ml-8 border-none" href="https://drive.google.com/file/d/18oRpP7Isf_e14SHhCidP3HTjF1iNvL11/view?usp=sharing" target='_blank'>Resume</a></li>
+  className="bg-violet-950	 text-white rounded-sm py-2 px-4 ml-8 border-none" href="https://drive.google.com/file/d/1L1hZU2yP4y_ZnUyGyZnh3VfV2nxNTesP/view?usp=drive_link" target='_blank'>Resume</a></li>
 </ul>
 
 </nav>
@@ -74,24 +76,28 @@ export default function Home() {
  
 </p>
 <a 
-  className="bg-violet-950	 text-white rounded-sm py-2 px-4 ml-3 border-none" href="https://wa.me/message/4BT4YXGDU4TNP1" target='_blank' data-aos="zoom-in" data-aos-duration="2000">Contact me</a>
+  className="bg-violet-950 outline-none shadow-lg shadow-indigo-500/50 text-white rounded-sm py-2 px-4 ml-3 border-none" href="https://wa.me/message/4BT4YXGDU4TNP1" target='_blank' data-aos="zoom-in" data-aos-duration="2000">Contact me</a>
 </div>
-<div className="text-4xl flex justify-center gap-10 " >
-<a href="https://twitter.com/codewithaneesh" target="_blank"data-aos="fade-up" data-aos-duration="1500"><FaSquareXTwitter className="text-zinc-500" /></a>
+<div className="text-4xl flex justify-center gap-10  " >
+<a href="https://twitter.com/codewithaneesh" target="_blank"data-aos="fade-up" data-aos-duration="1500"><FaSquareXTwitter className="text-zinc-500 " /></a>
 <a href="https://www.linkedin.com/in/aneeshmaury/" target="_blank" data-aos="fade-up" data-aos-duration="1800"><FaLinkedin className="text-zinc-500" /></a>
 <a href="https://www.youtube.com/@codewithaneesh" target="blank" data-aos="fade-up" data-aos-duration="2100"><FaYoutube className="text-zinc-500" /></a>
 <a href="https://github.com/aneeshmaury" target="_blank"data-aos="fade-up" data-aos-duration="2300"><FaGithub className="text-zinc-500" /></a>
 </div>
-<img src="/images/logo.jpg" alt="logo" className="flex justify-center rounded-full w-80 h-80 mt-10 mx-auto"   data-aos="zoom-in" data-aos-duration="2000" />
+<img src="/images/logo.jpg" alt="logo" className="flex justify-center rounded-full w-80 h-80 mt-10 mx-auto shadow-sm shadow-blue-500/50"   data-aos="zoom-in" data-aos-duration="2000" />
 
-<h1 className="text-3xl text-white font-bold w-54 text-center shadow-md bg-[#720455] px-4 py-2 m-10" data-aos="zoom-in" data-aos-duration="2000">Tech Stack</h1>
+<div className='experiance'>
+  <CustomizedTimeline/>
+</div>
 
-<div className="skill-container bg-[#3C0753] rounded-md p-6 h-92 md:flex justify-around">
+<div className="skill-container bg-[#030637] rounded-md p-6 h-92 md:flex justify-around">
 
-<div className="skill-section bg-black p-4 rounded-sm md:bg-zinc-950  mt-11">
+<div className="skill-section bg-black p-4 rounded-sm md:bg-zinc-950  mt-11  shadow-sm shadow-indigo-500/50">
+<h1 className="text-3xl text-black font-bold w-54 text-center rounded-sm shadow-md bg-blue-500 px-4 py-2 m-10" data-aos="zoom-in" data-aos-duration="2000">Tech Stack</h1>
+
 <Skill/>
 </div>
-<div className="logo-section bg-black p-4 rounded-sm mt-6 md:ml-32 ">
+<div className="logo-section bg-black p-4 rounded-md mt-6 md:ml-32 shadow-sm shadow-indigo-500/50 ">
   <p className="text-white w-62 p-4 md:w-56 h-56" data-aos="zoom-in" data-aos-duration="2000">
 Passionate frontend developer proficient in HTML, CSS, and JavaScript, with expertise in React and Next.js. Transforming ideas into interactive and engaging web experiences.</p>
 </div>
@@ -99,7 +105,7 @@ Passionate frontend developer proficient in HTML, CSS, and JavaScript, with expe
 
 </div>
 
-<h1 className="text-3xl text-black font-bold w-54 text-center shadow-md bg-blue-500 px-4 py-2 m-10" data-aos="zoom-in" data-aos-duration="2000">Projects</h1>
+<h1 className="text-3xl text-black font-bold w-54 text-center  bg-blue-500 px-4 py-2 m-10 rounded-md shadow-sm shadow-indigo-500/50" data-aos="zoom-in" data-aos-duration="2000">Projects</h1>
 
 <div className='project-section flex justify-center '>
 <MultiActionAreaCard/>
