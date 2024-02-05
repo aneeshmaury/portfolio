@@ -21,7 +21,7 @@ export default function CustomizedTimeline() {
           sx={{ m: 'auto 0',color:'white'}}
           variant="body2"
           color="text.secondary"
-          className='tracking-widest text-2xl' data-aos="fade-right" data-aos-duration="2000"
+          className='tracking-widest text-xl' data-aos="fade-right" data-aos-duration="2000"
         >
           Education
         </TimelineOppositeContent>
@@ -33,10 +33,10 @@ export default function CustomizedTimeline() {
           <TimelineConnector />
         </TimelineSeparator>
         <TimelineContent sx={{ py: '12px', px: 2, color:'white' }} data-aos="zoom-in" data-aos-duration="2000">
-          <Typography variant="h6" component="span">
+          <Typography variant="h6" component="span" >
             Bachelor in Computer Science
           </Typography>
-          <Typography>2020 - 2023</Typography>
+          <Typography className='text-sm'>2020 - 2023</Typography>
         </TimelineContent>
       </TimelineItem>
       <TimelineItem>
@@ -45,7 +45,7 @@ export default function CustomizedTimeline() {
           align="right"
           variant="body2"
           color="text.secondary"
-          className="tracking-widest text-2xl"  data-aos="zoom-in" data-aos-duration="2000"
+          className="tracking-widest text-xl"  data-aos="zoom-in" data-aos-duration="2000"
         >
           Internship
         </TimelineOppositeContent>
@@ -69,7 +69,7 @@ export default function CustomizedTimeline() {
           align="right"
           variant="body2"
           color="text.secondary"
-          className="tracking-widest text-2xl" data-aos="fade-right" data-aos-duration="2000"
+          className="tracking-widest text-xl" data-aos="fade-right" data-aos-duration="2000"
         >
           Certificate
         </TimelineOppositeContent>
