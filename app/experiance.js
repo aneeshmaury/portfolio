@@ -21,7 +21,7 @@ export default function CustomizedTimeline() {
           sx={{ m: 'auto 0',color:'white'}}
           variant="body2"
           color="text.secondary"
-          className='tracking-widest text-xl' data-aos="fade-right" data-aos-duration="2000"
+          className='tracking-widest' data-aos="fade-right" data-aos-duration="2000"
         >
           Education
         </TimelineOppositeContent>
@@ -45,7 +45,7 @@ export default function CustomizedTimeline() {
           align="right"
           variant="body2"
           color="text.secondary"
-          className="tracking-widest text-xl"  data-aos="zoom-in" data-aos-duration="2000"
+          className="tracking-widest"  data-aos="zoom-in" data-aos-duration="2000"
         >
           Internship
         </TimelineOppositeContent>
@@ -69,7 +69,7 @@ export default function CustomizedTimeline() {
           align="right"
           variant="body2"
           color="text.secondary"
-          className="tracking-widest text-xl" data-aos="fade-right" data-aos-duration="2000"
+          className="tracking-widest" data-aos="fade-right" data-aos-duration="2000"
         >
           Certificate
         </TimelineOppositeContent>
