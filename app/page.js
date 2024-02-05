@@ -87,6 +87,7 @@ export default function Home() {
 <img src="/images/logo.jpg" alt="logo" className="flex justify-center rounded-full w-80 h-80 mt-10 mx-auto shadow-sm shadow-blue-500/50"   data-aos="zoom-in" data-aos-duration="2000" />
 
 <div className='experiance'>
+<h1 className="text-3xl text-black font-bold w-54 text-center rounded-sm shadow-md bg-blue-500 px-4 py-2 m-10" data-aos="zoom-in" data-aos-duration="2000">Experiance & Education</h1>
   <CustomizedTimeline/>
 </div>
 

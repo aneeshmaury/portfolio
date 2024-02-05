@@ -7,90 +7,88 @@ import TimelineConnector from '@mui/lab/TimelineConnector';
 import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
 import TimelineDot from '@mui/lab/TimelineDot';
-import FastfoodIcon from '@mui/icons-material/Fastfood';
-import LaptopMacIcon from '@mui/icons-material/LaptopMac';
-import HotelIcon from '@mui/icons-material/Hotel';
-import RepeatIcon from '@mui/icons-material/Repeat';
+import WorkIcon from '@mui/icons-material/Work';
+import SchoolIcon from '@mui/icons-material/School';
+import CardMembershipIcon from '@mui/icons-material/CardMembership';
 import Typography from '@mui/material/Typography';
 
 export default function CustomizedTimeline() {
   return (
     <Timeline position="alternate">
+      
       <TimelineItem>
         <TimelineOppositeContent
-          sx={{ m: 'auto 0' }}
-          align="right"
+          sx={{ m: 'auto 0',color:'white'}}
           variant="body2"
           color="text.secondary"
+          className='tracking-widest text-2xl' data-aos="fade-right" data-aos-duration="2000"
         >
-          9:30 am
-        </TimelineOppositeContent>
-        <TimelineSeparator>
-          <TimelineConnector />
-          <TimelineDot>
-            <FastfoodIcon />
-          </TimelineDot>
-          <TimelineConnector />
-        </TimelineSeparator>
-        <TimelineContent sx={{ py: '12px', px: 2 }}>
-          <Typography variant="h6" component="span">
-            Eat
-          </Typography>
-          <Typography>Because you need strength</Typography>
-        </TimelineContent>
-      </TimelineItem>
-      <TimelineItem>
-        <TimelineOppositeContent
-          sx={{ m: 'auto 0' }}
-          variant="body2"
-          color="text.secondary"
-        >
-          10:00 am
+          Education
         </TimelineOppositeContent>
         <TimelineSeparator>
           <TimelineConnector />
           <TimelineDot color="primary">
-            <LaptopMacIcon />
+            <SchoolIcon />
           </TimelineDot>
           <TimelineConnector />
         </TimelineSeparator>
-        <TimelineContent sx={{ py: '12px', px: 2 }}>
+        <TimelineContent sx={{ py: '12px', px: 2, color:'white' }} data-aos="zoom-in" data-aos-duration="2000">
           <Typography variant="h6" component="span">
-            Code
+            Bachelor in Computer Science
           </Typography>
-          <Typography>Because it&apos;s awesome!</Typography>
+          <Typography>2020 - 2023</Typography>
         </TimelineContent>
       </TimelineItem>
       <TimelineItem>
+        <TimelineOppositeContent
+          sx={{ m: 'auto 0', color:'white'}}
+          align="right"
+          variant="body2"
+          color="text.secondary"
+          className="tracking-widest text-2xl"  data-aos="zoom-in" data-aos-duration="2000"
+        >
+          Internship
+        </TimelineOppositeContent>
         <TimelineSeparator>
           <TimelineConnector />
-          <TimelineDot color="primary" variant="outlined">
-            <HotelIcon />
+          <TimelineDot>
+            <WorkIcon />
           </TimelineDot>
-          <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
+          <TimelineConnector />
         </TimelineSeparator>
-        <TimelineContent sx={{ py: '12px', px: 2 }}>
+        <TimelineContent sx={{ py: '12px', px: 2, color:'white' }} data-aos="fade-right" data-aos-duration="2000">
           <Typography variant="h6" component="span">
-            Sleep
+            Front-End Development
           </Typography>
-          <Typography>Because you need rest</Typography>
+          <Typography>11/2023 - 12/2023</Typography>
         </TimelineContent>
       </TimelineItem>
       <TimelineItem>
+        <TimelineOppositeContent
+          sx={{ m: 'auto 0', color:'white'}}
+          align="right"
+          variant="body2"
+          color="text.secondary"
+          className="tracking-widest text-2xl" data-aos="fade-right" data-aos-duration="2000"
+        >
+          Certificate
+        </TimelineOppositeContent>
         <TimelineSeparator>
-          <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
-          <TimelineDot color="secondary">
-            <RepeatIcon />
+          <TimelineConnector />
+          <TimelineDot>
+            <CardMembershipIcon />
           </TimelineDot>
           <TimelineConnector />
         </TimelineSeparator>
-        <TimelineContent sx={{ py: '12px', px: 2 }}>
+        <TimelineContent sx={{ py: '12px', px: 2, color:'white' }}  data-aos="zoom-in" data-aos-duration="2000">
           <Typography variant="h6" component="span">
-            Repeat
+            Web Development
           </Typography>
-          <Typography>Because this is the life you love!</Typography>
+          <Typography>10/2023 - Present</Typography>
         </TimelineContent>
       </TimelineItem>
+      
+     
     </Timeline>
   );
 }
