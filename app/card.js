@@ -46,7 +46,7 @@ export default function MultiActionAreaCard() {
       </CardActionArea>
       <CardActions>
         <Button size="small" color="primary">
-          <a href="https://sparkling-praline-b954f0.netlify.app/" target= "_blank" >click</a>
+          <a href="https://aneeshmaury.github.io/hotstar-clone/" target= "_blank" >click</a>
         </Button>
       </CardActions>
     </Card>

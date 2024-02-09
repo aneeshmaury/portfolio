@@ -36,7 +36,7 @@ export default function CustomizedTimeline() {
           <Typography variant="h7" component="span" className='text-sm'>
             Bachelor in Computer Science
           </Typography>
-          <Typography className='text-sm'>2020 - 2023</Typography>
+          <Typography variant="h6" className='text-sm'>2020 - 2023</Typography>
         </TimelineContent>
       </TimelineItem>
       <TimelineItem>

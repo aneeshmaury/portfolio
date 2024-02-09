@@ -38,7 +38,7 @@ export default function Home() {
 <ul className="flex items-center">
   
   <li><a 
-  className="bg-violet-950	 text-white rounded-sm py-2 px-4 ml-8 border-none" data-aos="fade-left" href="https://drive.google.com/file/d/1L1hZU2yP4y_ZnUyGyZnh3VfV2nxNTesP/view?usp=drive_link" target='_blank'>Resume</a></li>
+  className="bg-violet-950	 text-white rounded-sm py-2 px-4 ml-8 border-none" data-aos="fade-left" href="https://drive.google.com/file/d/1L1hZU2yP4y_ZnUyGyZnh3VfV2nxNTesP/view?usp=sharing" target='_blank'>Resume</a></li>
 </ul>
 
 </nav>
