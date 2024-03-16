@@ -42,6 +42,10 @@ export default function Home() {
 </ul>
 
 </nav>
+<div>
+
+
+</div>
 
 
 <div className="text-center p-10">
